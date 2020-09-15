@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 # 配置环境的基类
 class Config(object):
 

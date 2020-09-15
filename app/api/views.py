@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from flask import make_response, jsonify, request
 from app.api import api
 from app.models import getHomepageData

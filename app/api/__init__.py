@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from flask import Blueprint
 
 # 两个参数分别指定蓝本的名字、蓝本所在的包或模块
