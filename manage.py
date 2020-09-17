@@ -11,7 +11,7 @@ default:        默认环境
 
 """
 # 通过传入当前的开发环境，创建应用实例，不同的开发环境配置有不同的config。这个参数也可以从环境变量中获取
-app = create_app('development')
+app = create_app('production')
 
 if __name__ == '__main__':
     # flask内部自带的web服务器，只可以在测试时使用

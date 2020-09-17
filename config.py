@@ -27,7 +27,7 @@ class DevelopmentConfig(Config):
     """
     DEBUG = True
     # 数据库URI
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:123456@127.0.0.1:3306/ceshi'
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:root@127.0.0.1:3306/test'
 
 
     # 也可如下来写，比较清晰
@@ -38,7 +38,7 @@ class DevelopmentConfig(Config):
 class TestingConfig(Config):
 
     TESTING = True
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:123456@127.0.0.1:3306/ceshi'
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:root@127.0.0.1:3306/ceshi'
 
 
     """
@@ -53,7 +53,7 @@ class TestingConfig(Config):
 # 生产环境的配置
 class ProductionConfig(Config):
 
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:123456@172.17.180.4:3306/cleven_production'
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://whc:manannan123456@127.0.0.1:3306/whc'
 
 
 # 初始化app实例时对应的开发环境声明
