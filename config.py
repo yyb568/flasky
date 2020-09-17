@@ -53,7 +53,7 @@ class TestingConfig(Config):
 # 生产环境的配置
 class ProductionConfig(Config):
 
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://whc:manannan123456@172.26.81.119:3306/whc'
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://whc_yybblog_cn:mNAbNTJLnFZEtBZX@127.0.0.1:3306/whc'
 
 
 # 初始化app实例时对应的开发环境声明
